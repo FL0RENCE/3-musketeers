@@ -34,10 +34,6 @@ const convert = configuration => {
   process.exit(1);
 };
 
-  @param {float} amount: The amount to convert
-  @param {string} from: the source currency
-  @param {string[]} to: the target currencies
-  @see convert
 
 const cash = async command => {
   const amount = command.amount;
